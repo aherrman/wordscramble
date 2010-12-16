@@ -1,0 +1,11 @@
+<html>
+<head></head>
+<body>
+<h2>Text Scrambler!</h2>
+<form action="/" method="post">
+  <div><textarea name="content" rows="10" cols="60">{{ original|escape }}</textarea></div>
+  <div><input type="submit" value="Scramble!"></input></div>
+</form>
+<div><textarea name="content" rows="10" cols="60">{{ scrambled|escape }}</textarea></div>
+</body>
+</html>
